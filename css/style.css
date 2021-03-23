@@ -103,6 +103,10 @@ article {
     margin: 0 auto;
 }
 
+.gender {
+    display: none;
+}
+
 .question {
     display: none;
     width: 75%;
@@ -128,12 +132,20 @@ article {
     margin-right: 15px;
 }
 
-.result #explain {
-    line-height: 3rem;
+.result .explain-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result .explain-wrap > div {
+    width: 50%;
+}
+.result .explain-wrap h3 {
+    line-height: 2rem;
 }
 
 #img {
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -161,10 +173,10 @@ article {
         width: 100%;
     }
     #img {
-        width: 200px;
+        width: 150px;
     }
 
-    .result #explain {
+    .result .explain-wrap h3 {
         line-height: 1.5rem;
     }
 }

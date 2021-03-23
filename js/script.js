@@ -1,5 +1,15 @@
 
 var num = 1;
+var count = 1;
+
+var g = {
+    1: {
+        "question" : "성별은 무엇인가요?",
+        "case" : "MF",
+        "M" : "남자",
+        "F" : "여자"
+    }
+}
 var q = {
     // EI
     1: {
@@ -231,59 +241,59 @@ var q = {
 
 var result = {
     "ISTJ" : {
-        "stat" : "편의점의 기본템",
-        "food": "'컵라면'",
-        "img" : "images/product/noodle.png",
+        "stat" : "ISTJ - 바른생활 어린이",
+        "img" : "images/istj/istj-m.png",
         "subtitle" : "ISTJ 특징",
-        "explain" : "♪ 보수적인 성격" + "<br />" + "♪ 옛날 음식이 땡기는걸?"
+        "explain" : "정리정돈을 잘해요." + "<br />" + "계획적이에요.",
+        "dexplain" : "융통성이 부족해요." + "<br />" + "자발성이 부족해요."
     },
     "ISFJ" : {
-        "stat" : "두툼한 튀김옷",
-        "food" : "'핫도그'",
-        "img" : "images/product/hotdog.png",
+        "stat" : "ISFJ - 예의바른 어린이",
+        "img" : "images/isfj/isfj-m.png",
         "subtitle" : "ISFJ 특징",
-        "explain" : "♪ 무난한 메뉴 선택" + "<br />" + "♪ 달콤한게 좋아!"
+        "explain" : "봉사적이며 착하다" + "<br />" + "신뢰감이 간다",
+        "dexplain" : "행동력이 부족하다" + "<br />" + "변화를 싫어한다"
     },
     "INFJ" : {
-        "stat" : "세상 달콤한",
-        "food": "'모찌 롤 케이크'",
-        "img" : "images/product/mozzie.png",
+        "stat" : "INFJ - 우정가득 어린이",
+        "img" : "images/infj/infj-m.png",
         "subtitle" : "INFJ 특징",
-        "explain" : "♪ '이거 맛있는데 먹어볼래?'" + "<br />" + "♪ 나눔천사"
+        "explain" : "조용하고 침착하고 책임감이 강하다" + "<br />" + "성숙한 사고력을 지니고 있다",
+        "dexplain" : "먼저 나서기를 싫어한다" + "<br />" + "잔걱정이 지나치게 많다"
 
     },
     "INTJ" : {
-        "stat" : "하나씩 꺼내 먹는 재미",
-        "food": "프링글스",
+        "stat" : "INTJ - 애늙은이 어린이",
         "img" : "images/product/pringles.png",
         "subtitle" : "INTJ 특징",
-        "explain" : "♪ 위에서부터 하나씩 하나씩" + "<br />" + "♪ 막 집어먹는거 보단 차례대로!"
+        "explain" : "승부욕이 강하다" + "<br />" + "독립적, 독창적, 효율적이다",
+        "dexplain" : "고집이 세다" + "<br />" + "상처를 잘 받는다"
     },
 
     "ISTP" : {
         "stat" : "새콤달콤 맛있는",
-        "food": "냉동치킨",
+        "mbti": "냉동치킨",
         "img" : "images/product/chicken.png",
         "subtitle" : "ISTP 특징",
         "explain" : "♪ 치킨은 못참지!" + "<br />" + "♪ 소스는 더 못참아~"
     },
     "ISFP" : {
         "stat" : "상큼하고 아삭한",
-        "food" : "'샌드위치'",
+        "mbti" : "'샌드위치'",
         "img" : "images/product/sandwich.png",
         "subtitle" : "ISFP 특징",
         "explain" : "♪ 오늘은 신선한게 땡겨" + "<br />" + "♪ 내가 살게 너 하나 나 하나 나눠 먹자!"
     },
     "INFP" : {
         "stat" : "자꾸 손이가는",
-        "food": "'치즈볼'",
+        "mbti": "'치즈볼'",
         "img" : "images/product/cheeseball.png",
         "subtitle" : "INFP 특징",
         "explain" : "♪ 편의점가서 무조건 치즈볼먹을거야" + "<br />" + "♪치즈볼이 없으면 안돼"
     },
     "INTP" : {
         "stat" : "얼큰한",
-        "food": "'국물짬뽕'",
+        "mbti": "'국물짬뽕'",
         "img" : "images/product/jjambbong.png",
         "subtitle" : "INTP 특징",
         "explain" : "♪ 오늘은 얼큰한 짬뽕!" + "<br />" + "♪ 뭔가 섞어먹고싶은 이 느낌.."
@@ -291,28 +301,28 @@ var result = {
 
     "ESTP" : {
         "stat" : "골라먹는 재미",
-        "food": "'케이준 치킨 샐러드'",
+        "mbti": "'케이준 치킨 샐러드'",
         "img" : "images/product/cajun.png",
         "subtitle" : "ESTP 특징",
         "explain" : "♪ 소스 뿌리기전에 한 입 먹고!" + "<br />" + "♪ 소스 뿌리고 비벼서 한 입 더!"
     },
     "ESFP" : {
         "stat" : "세상 맛있는",
-        "food" : "'스테이크 반찬'",
+        "mbti" : "'스테이크 반찬'",
         "img" : "images/product/stake.png",
         "subtitle" : "ESFP 특징",
         "explain" : "♪ 맛있는 음식이 최고야!" + "<br />" + "♪ 한 입 먹어볼사람?"
     },
     "ENFP" : {
         "stat" : "신기한 간식거리",
-        "food": "'인절미 아아스'",
+        "mbti": "'인절미 아아스'",
         "img" : "images/product/icecream.png",
         "subtitle" : "ENFP 특징",
         "explain" : "♪ 남들 먹는거는 너무 시시해" + "<br />" + "♪ 처음보는거로 먹어볼까?"
     },
     "ENTP" : {
         "stat" : "SNS에서 핫한",
-        "food": "'초코 프레첼'",
+        "mbti": "'초코 프레첼'",
         "img" : "images/product/prechel.png",
         "subtitle" : "ENTP 특징",
         "explain" : "♪ 요즘 이게 그렇게 유명하대!" + "<br />" + "♪ 이거 꽤 맛있는데? 같이 먹을래?"
@@ -320,28 +330,28 @@ var result = {
 
     "ESTJ" : {
         "stat" : "단짠단짠의 유명인사",
-        "food": "'소떡소떡'",
+        "mbti": "'소떡소떡'",
         "img" : "images/product/sodduck.png",
         "subtitle" : "ESTJ 특징",
         "explain" : "♪ 단짠단짠이 제일 좋아!" + "<br />" + "♪ 두개 사서 한입씩 번갈아 먹어!"
     },
     "ESFJ" : {
         "stat" : "하나 집었는데.. 없네?",
-        "food" : "'콜팝'",
+        "mbti" : "'콜팝'",
         "img" : "images/product/colpop.png",
         "subtitle" : "ESFJ 특징",
         "explain" : "♪ 진짜 맛있겠다! 같이 먹자!" + "<br />" + "♪ 어..? 어디갔지"
     },
     "ENFJ" : {
         "stat" : "튀김의 왕좌",
-        "food": "'돈까스'",
+        "mbti": "'돈까스'",
         "img" : "images/product/tonkachu.png",
         "subtitle" : "ENFJ 특징",
         "explain" : "♪ 난 돈까스 고를건데 너는??" + "<br />" + "♪ 언제 먹어도 너무 맛있어.. 안그래?"
     },
     "ENTJ" : {
         "stat" : "길고 달고 맛있는",
-        "food": "'츄러스'",
+        "mbti": "'츄러스'",
         "img" : "images/product/churus.png",
         "subtitle" : "ENTJ 특징",
         "explain" : "♪ 난 츄러스가 제일 좋아!" + "<br />" + "♪ 다른거 한입 나눠줄 사람?"
@@ -366,6 +376,18 @@ $('#A').click(function(){
 
 $("#B").click(function(){
     next();
+});
+
+$("#M").click(function() {
+    var genderType = $("#gender").val();
+    var genderValue = $("#" + gendertype).val();
+
+    $("#" + genderType).val(parseInt(genderValue)+1);
+    next();
+});
+
+$("#F").click(function() {
+    next();
 })
 
 
@@ -374,6 +396,11 @@ function next() {
 
     if(num == 37) {
         $(".question").hide();
+        // $(".gender").show();
+
+        // var gender = "";
+        // ($("#gender").val () < 1 ? gender += "M" : gender += "F");
+
         $(".result").show();
 
         // mbti 타입
@@ -386,10 +413,11 @@ function next() {
 
         // 결과
         $("#stat").html(result[mbti]["stat"]);
-        $("#food").html(result[mbti]["food"]);
+        // $("#mbti").html(result[mbti]["mbti"]);
         $("#img").attr("src",result[mbti]["img"]);
         $("#subtitle").html(result[mbti]["subtitle"]);
         $("#explain").html(result[mbti]["explain"]);
+        $("#d-explain").html(result[mbti]["dexplain"]);
     }
     else {
         $(".progress-bar").attr('style', 'width:calc(100/36*'+num+'%)')
@@ -399,6 +427,12 @@ function next() {
 
         $("#A").html(q[num]["A"]);
         $("#B").html(q[num]["B"]);
+
+
+        $("#gender-title").html(g[count]["question"]);
+        $("#gender").val(g[count]["case"])
+        $("#M").html(g[count]["M"]);
+        $("#F").html(g[count]["F"]);
 
         num++;
     }
