@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Noto Sans 400';
+    font-weight: 400;
+    src: url(../fonts/NotoSans-Regular.eot);
+    src: url(../fonts/Notosans/NotoSans-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/NotoSans-Regular.woff) format('woff'),
+        url(../fonts/NotoSans-Regular.woff2) format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Noto Sans 700';
+    font-weight: 700;
+    src: url(../fonts/NotoSans-Bold.eot);
+    src: url(../fonts/NotoSans-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/NotoSans-Bold.woff) format('woff'),
+        url(../fonts/NotoSans-Bold.woff2) format('woff2');
+  }
+
+body {
+    font-family: 'Noto Sans 400';
+}
+
+.fw-b {
+    font-family: 'Noto Sans 700';
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/* custom */
+.fc-w {
+    color: #fff;
+}
+.fc-green {
+    color: #6efb4e;
+}
+.fc-orange {
+    color: #ffd255;
+}
+
+button {
+    color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #f0f0f0;
+    background: transparent;
+    transition: all .4s;
+}
+
+button:active,
+button:visited,
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    border-color: transparent;
+    background-color: #ffd255;
+}
+
+.fz-12 {
+    font-size: 12px;
+}
+.fz-16 {
+    font-size: 16px;
+}
+.fz-18 {
+    font-size: 18px;
+}
+.fz-20 {
+    font-size: 20px;
+}
+.fz-24 {
+    font-size: 24px;
+}
+
+.progress {
+    height: 1.5rem;
+    border-radius: 30px;
+}
+.progress-bar {
+    background-color: #ffd255;
+}
+
+/* style */
+.mbti-wrap {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/background.jpg)no-repeat;
+    background-size: cover;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.start button {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.question {
+    display: none;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.question button {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.question h2 {
+    font-size: 1.25rem;
+}
+
+.result {
+    display: none;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.result span {
+    margin-right: 15px;
+}
+
+.result #explain {
+    line-height: 3rem;
+}
+
+#img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.return {
+    width: 35%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.share {
+    margin: 0 auto;
+}
+
+@media(max-width: 992px) {
+    body {
+        font-size: 12px;
+    }
+    .start h1 {
+        font-size: 24px;
+    }
+    .start button {
+        width: 50%;
+    }
+    .question button {
+        width: 100%;
+    }
+    #img {
+        width: 200px;
+    }
+
+    .result #explain {
+        line-height: 1.5rem;
+    }
+}

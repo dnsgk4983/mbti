@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유치원생들을 위한 MBTI 성격 테스트</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script data-ad-client="pub-9288250492771834" async src="https://pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <div class=" vertical-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="mbti-wrap">
+                    <article class="start">
+                        <h1 class="text-center fw-b fc-w m-0">유아 성격 <span class="fc-orange">MBTI</span> 검사</h1>
+                        <button type="button" class="mt-3" onclick="start()">테스트 시작하기</button>
+                    </article>
+            
+                    <article class="question">
+                        <div class="progress mt-5">
+                            <div class="progress-bar" role="progressbar" style="width: calc(100/12*1%)" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        
+                        <div class="text-wrap text-center mt-5">
+                            <h2 id="number" class="fc-w">문제</h2>
+                            <!-- <h2 id="title" class="fc-w">질문</h2> -->
+                        </div>
+                        <input id="type" type="hidden" value="EI">
+                        <button id="A" type="button" class="mt-5">Primary</button>
+                        <button id="B" type="button" class="mt-5">Primary</button>
+                    </article>
+            
+                    <article class="result">
+                        <h1 id="stat" class="text-center mt-5 fc-w fw-b fz-20">꾸미는단어</h1>
+                        <h2 id="food" class="text-center fc-w fw-b mt-2 fz-24">음식이름</h2>
+                        <img id="img" class="mt-3" src="images/lion.jpg" alt="food" />
+                        <span class="text-right fz-12 fc-w mt-2">이미지 출처 : 구글검색</span>
+                        <h3 id="subtitle" class="text-center mt-5 fc-w fz-20">특징</h3>
+                        <h3 id="explain" class="text-center mt-2 fc-w fz-16">설명</h3>
+                        <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="share addthis_inline_share_toolbox mt-5"></div>
+                        <button class="mt-5 return" type="button" onclick="regame()">
+                            다시하기
+                        </button>
+                    </article>
+            
+                    <input type="hidden" id="EI" value="0">
+                    <input type="hidden" id="SN" value="0">
+                    <input type="hidden" id="TF" value="0">
+                    <input type="hidden" id="JP" value="0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- SCRIPT -->
+    <script src="js/script.js"></script>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6041eaf88b0d84ba"></script>
+</body>
+</html>
