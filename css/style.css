@@ -132,13 +132,9 @@ article {
     margin-right: 15px;
 }
 
-.result .explain-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .result .explain-wrap > div {
     width: 50%;
+    margin: 0 auto 2rem;
 }
 .result .explain-wrap h3 {
     line-height: 2rem;

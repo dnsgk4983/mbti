@@ -300,59 +300,61 @@ var result = {
 
     "ESTP" : {
         "stat" : "ESTP - 참견쟁이 어린이",
-        "img" : "images/product/cajun.png",
+        "img" : "images/estp/estp-m.png",
         "subtitle" : "ESTP 특징",
-        "explain" : "♪ 소스 뿌리기전에 한 입 먹고!" + "<br />" + "♪ 소스 뿌리고 비벼서 한 입 더!"
+        "explain" : "항상 즐거워한다" + "<br />" + "임기응변이 뛰어나다",
+        "dexplain" : "복잡한 것을 싫어한다" + "<br />" + "참견이 심하다"
     },
     "ESFP" : {
-        "stat" : "세상 맛있는",
-        "mbti" : "'스테이크 반찬'",
-        "img" : "images/product/stake.png",
+        "stat" : "ESFP - 적극적인 어린이",
+        "img" : "images/esfp/esfp-m.png",
         "subtitle" : "ESFP 특징",
-        "explain" : "♪ 맛있는 음식이 최고야!" + "<br />" + "♪ 한 입 먹어볼사람?"
+        "explain" : "활발한 성격" + "<br />" + "적응력이 뛰어나다",
+        "dexplain" : "장난이 심하다" + "<br />" + "말이 엄청 많다"
     },
     "ENFP" : {
-        "stat" : "신기한 간식거리",
-        "mbti": "'인절미 아아스'",
-        "img" : "images/product/icecream.png",
+        "stat" : "ENFP - 변덕쟁이 어린이",
+        "img" : "images/enfp/enfp-m.png",
         "subtitle" : "ENFP 특징",
-        "explain" : "♪ 남들 먹는거는 너무 시시해" + "<br />" + "♪ 처음보는거로 먹어볼까?"
+        "explain" : "순진하고 순수하다" + "<br />" + "사람을 좋아한다",
+        "dexplain" : "변덕이 심하다" + "<br />" + "용돈을 헤프게 쓴다"
     },
     "ENTP" : {
-        "stat" : "SNS에서 핫한",
-        "mbti": "'초코 프레첼'",
-        "img" : "images/product/prechel.png",
+        "stat" : "ENTP - 개인주의 어린이",
+        "img" : "images/entp/entp-m.png",
         "subtitle" : "ENTP 특징",
-        "explain" : "♪ 요즘 이게 그렇게 유명하대!" + "<br />" + "♪ 이거 꽤 맛있는데? 같이 먹을래?"
+        "explain" : "활발하며 독창적이다" + "<br />" + "상상력과 표현력이 뛰어나다",
+        "dexplain" : "고집이 강하다" + "<br />" + "게으르다"
     },
 
     "ESTJ" : {
-        "stat" : "단짠단짠의 유명인사",
-        "mbti": "'소떡소떡'",
-        "img" : "images/product/sodduck.png",
+        "stat" : "ESTJ - 모범적인 어린이",
+        "img" : "images/estj/estj-m.png",
         "subtitle" : "ESTJ 특징",
-        "explain" : "♪ 단짠단짠이 제일 좋아!" + "<br />" + "♪ 두개 사서 한입씩 번갈아 먹어!"
+        "explain" : "모범적이고 솔선수범한다" + "<br />" + "정리정돈을 잘하고 책임감이 강하다",
+        "dexplain" : "생각없이 말을 내뱉곤 한다" + "<br />" + "의도치않게 사람을 따돌린다"
+
     },
     "ESFJ" : {
-        "stat" : "하나 집었는데.. 없네?",
-        "mbti" : "'콜팝'",
-        "img" : "images/product/colpop.png",
+        "stat" : "ESFJ - 발표대장 어린이",
+        "img" : "images/esfj/esfj.png",
         "subtitle" : "ESFJ 특징",
-        "explain" : "♪ 진짜 맛있겠다! 같이 먹자!" + "<br />" + "♪ 어..? 어디갔지"
+        "explain" : "명량하고 쾌활한 성격" + "<br />" + "뛰어난 표현력과 리더쉽",
+        "dexplain" : "무관심에 쉽게 좌절한다" + "<br />" + "일어날 일에 미리 걱정한다"
     },
     "ENFJ" : {
-        "stat" : "튀김의 왕좌",
-        "mbti": "'돈까스'",
-        "img" : "images/product/tonkachu.png",
+        "stat" : "ENFJ - 사차원적 어린이",
+        "img" : "images/enfj/enfj-m.png",
         "subtitle" : "ENFJ 특징",
-        "explain" : "♪ 난 돈까스 고를건데 너는??" + "<br />" + "♪ 언제 먹어도 너무 맛있어.. 안그래?"
+        "explain" : "온순하고 착하다" + "<br />" + "정리정돈을 잘한다",
+        "dexplain" : "가끔 무슨 생각을 하는지 모르겠다" + "<br />" + "돌발행동을 가끔한다"
     },
     "ENTJ" : {
-        "stat" : "길고 달고 맛있는",
-        "mbti": "'츄러스'",
-        "img" : "images/product/churus.png",
+        "stat" : "원칙주의 어린이",
+        "img" : "images/entj/entj-m.png",
         "subtitle" : "ENTJ 특징",
-        "explain" : "♪ 난 츄러스가 제일 좋아!" + "<br />" + "♪ 다른거 한입 나눠줄 사람?"
+        "explain" : "활발하고 논리적이다" + "<br />" + "준비가 철저하다",
+        "dexplain" : "고집이 강하며 간섭을 싫어한다" + "<br />" + "자기 주관이 강하다"
     },
     
 }
