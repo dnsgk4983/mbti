@@ -264,44 +264,42 @@ var result = {
     },
     "INTJ" : {
         "stat" : "INTJ - 애늙은이 어린이",
-        "img" : "images/product/pringles.png",
-        "subtitle" : "INTJ 특징",
+        "img" : "images/intj/intj-m.png",
         "explain" : "승부욕이 강하다" + "<br />" + "독립적, 독창적, 효율적이다",
         "dexplain" : "고집이 세다" + "<br />" + "상처를 잘 받는다"
     },
 
     "ISTP" : {
-        "stat" : "새콤달콤 맛있는",
-        "mbti": "냉동치킨",
-        "img" : "images/product/chicken.png",
+        "stat" : "ISTP - 사교적인 어린이",
+        "img" : "images/istp/istp-m.png",
         "subtitle" : "ISTP 특징",
-        "explain" : "♪ 치킨은 못참지!" + "<br />" + "♪ 소스는 더 못참아~"
+        "explain" : "여러가지에 관심이 많다" + "<br />" + "손재주가 좋다",
+        "dexplain" : "끈기가 부족하다" + "<br />" + "성급한 성격이다"
     },
     "ISFP" : {
-        "stat" : "상큼하고 아삭한",
-        "mbti" : "'샌드위치'",
-        "img" : "images/product/sandwich.png",
+        "stat" : "ISFP - 여유로운 어린이",
+        "img" : "images/isfp/isfp-m.png",
         "subtitle" : "ISFP 특징",
-        "explain" : "♪ 오늘은 신선한게 땡겨" + "<br />" + "♪ 내가 살게 너 하나 나 하나 나눠 먹자!"
+        "explain" : "꾸미기를 좋아한다" + "<br />" + "자신을 드러내기 좋아한다",
+        "dexplain" : "끈기가 부족하다" + "<br />" + "거부를 못하는 편이다"
     },
     "INFP" : {
-        "stat" : "자꾸 손이가는",
-        "mbti": "'치즈볼'",
-        "img" : "images/product/cheeseball.png",
+        "stat" : "INFP - 인정많은 어린이",
+        "img" : "images/infp/infp-m.png",
         "subtitle" : "INFP 특징",
-        "explain" : "♪ 편의점가서 무조건 치즈볼먹을거야" + "<br />" + "♪치즈볼이 없으면 안돼"
+        "explain" : "사려가 깊다" + "<br />" + "온화하고 부드럽다",
+        "dexplain" : "꾸준하지 못하다" + "<br />" + "적응하는데 시간이 오래걸린다"
     },
     "INTP" : {
-        "stat" : "얼큰한",
-        "mbti": "'국물짬뽕'",
-        "img" : "images/product/jjambbong.png",
+        "stat" : "INTP - 척척박사 어린이",
+        "img" : "images/intp/intp-m.png",
         "subtitle" : "INTP 특징",
-        "explain" : "♪ 오늘은 얼큰한 짬뽕!" + "<br />" + "♪ 뭔가 섞어먹고싶은 이 느낌.."
+        "explain" : "호기심이 많다" + "<br />" + "솔직하다",
+        "dexplain" : "고집이 세다" + "<br />" + "정리정돈을 못한다"
     },
 
     "ESTP" : {
-        "stat" : "골라먹는 재미",
-        "mbti": "'케이준 치킨 샐러드'",
+        "stat" : "ESTP - 참견쟁이 어린이",
         "img" : "images/product/cajun.png",
         "subtitle" : "ESTP 특징",
         "explain" : "♪ 소스 뿌리기전에 한 입 먹고!" + "<br />" + "♪ 소스 뿌리고 비벼서 한 입 더!"
